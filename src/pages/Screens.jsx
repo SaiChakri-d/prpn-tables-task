@@ -21,7 +21,7 @@ export default function Screens() {
 
   const tableOne = [
     { field: `id`, header: "ID" },
-    { field: "userId", header: "UserId" },
+    { field: "userId", header: "User ID" },
     { field: "title", header: "Title" },
     { field: "body", header: "Body" },
   ];
@@ -32,7 +32,7 @@ export default function Screens() {
     { field: "website", header: "Website" },
     { field: "company.bs", header: "Service" },
     { field: "address.city", header: "City" },
-    { field: "address.zipcode", header: "zipcode" },
+    { field: "address.zipcode", header: "ZIP Code" },
   ];
 
   return (
